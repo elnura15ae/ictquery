@@ -771,3 +771,133 @@ Entrypoint Index = js/Index-2e07ee89d818deb1b820.js js/Index-2e07ee89d818deb1b82
 Completed 200 OK in 17953ms (Views: 17936.9ms | ActiveRecord: 0.0ms | Allocations: 18853)
 
 
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:25:10 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 6554)
+Completed 200 OK in 36ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 12880)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:25:35 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/Users/mikailmilissen/.asdf/installs/ruby/3.0.1/lib/ruby/gems/3.0.0/gems/webpacker-5.4.0/lib/webpacker/webpack_runner.rb:23:in `exec': Permission denied - /Users/mikailmilissen/Documenten/Qiwie/ictquery/node_modules/.bin/webpack (Errno::EACCES)
+	from /Users/mikailmilissen/.asdf/installs/ruby/3.0.1/lib/ruby/gems/3.0.0/gems/webpacker-5.4.0/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from /Users/mikailmilissen/.asdf/installs/ruby/3.0.1/lib/ruby/gems/3.0.0/gems/webpacker-5.4.0/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from /Users/mikailmilissen/.asdf/installs/ruby/3.0.1/lib/ruby/gems/3.0.0/gems/webpacker-5.4.0/lib/webpacker/webpack_runner.rb:22:in `run'
+	from /Users/mikailmilissen/.asdf/installs/ruby/3.0.1/lib/ruby/gems/3.0.0/gems/webpacker-5.4.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:17:in `block in <main>'
+	from ./bin/webpack:16:in `chdir'
+	from ./bin/webpack:16:in `<main>'
+
+  Rendered layout layouts/application.html.erb (Duration: 1503.2ms | Allocations: 4727)
+Completed 200 OK in 1505ms (Views: 1504.0ms | ActiveRecord: 0.0ms | Allocations: 5398)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:25:39 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3443)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3990)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:25:40 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3435)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 3972)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:25:51 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 6569)
+Completed 200 OK in 56ms (Views: 47.1ms | ActiveRecord: 0.0ms | Allocations: 10333)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:25:53 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3570)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4223)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:26:07 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3435)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3985)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:26:14 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3435)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3968)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:26:25 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3433)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3963)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:26:26 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3433)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3965)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:26:27 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3434)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3966)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-11 15:26:50 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 6569)
+Completed 200 OK in 24ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 10335)
+
+
