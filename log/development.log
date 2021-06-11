@@ -1810,3 +1810,42 @@ Entrypoint IndexTwo = js/IndexTwo-2048b1213dd06b047ad9.js js/IndexTwo-2048b1213d
 Completed 200 OK in 5852ms (Views: 5843.2ms | ActiveRecord: 0.0ms | Allocations: 11661)
 
 
+Started GET "/" for 127.0.0.1 at 2021-06-11 16:36:55 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 279)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/mikailmilissen/Documenten/Qiwie/ictquery/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: f56f415922b22133880c
+Version: webpack 4.46.0
+Time: 1292ms
+Built at: 11/06/2021 16:36:58
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-26877f9358fa3984e091.js   1.06 MiB        Index  [emitted] [immutable]  Index
+      js/Index-26877f9358fa3984e091.js.map   1.22 MiB        Index  [emitted] [dev]        Index
+       js/IndexTwo-9c3e6031d93816eceb69.js   1.06 MiB     IndexTwo  [emitted] [immutable]  IndexTwo
+   js/IndexTwo-9c3e6031d93816eceb69.js.map   1.22 MiB     IndexTwo  [emitted] [dev]        IndexTwo
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  979 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+Entrypoint Index = js/Index-26877f9358fa3984e091.js js/Index-26877f9358fa3984e091.js.map
+Entrypoint IndexTwo = js/IndexTwo-9c3e6031d93816eceb69.js js/IndexTwo-9c3e6031d93816eceb69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/Index.jsx] 710 bytes {Index} [built]
+[./app/javascript/packs/IndexTwo.jsx] 1.67 KiB {IndexTwo} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 12 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3127.7ms | Allocations: 7881)
+Completed 200 OK in 3144ms (Views: 3134.1ms | ActiveRecord: 0.0ms | Allocations: 11667)
+
+
