@@ -80,3 +80,13 @@ Please make sure you have the correct access rights
 and the repository exists.
 
 git remote add upstream git@github.com:MikailMilissen/ictquery.git
+
+===
+
+To install the DB: 
+Open /config/ictquery_devlopment.dumb
+Copy the script
+Run it into query
+
+User: Postgres
+Password: ictpass
